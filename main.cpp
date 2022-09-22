@@ -1,4 +1,5 @@
 #include <iostream>
+#include<cmath>
 
 int main()
 {
@@ -12,9 +13,9 @@ int main()
 			{
 				if (!(leg1 == leg2 || leg2 == hypotenuse || leg1 == hypotenuse))
 				{
-					if ((leg1^2) + (leg2^2) = hypotenuse^2)
+					if (pow(leg1, 2) + pow(leg2, 2) == pow(hypotenuse, 2))
 					{
-						std::cout << leg1 << " " << leg2 << " " hypotenuse << "\n";
+						std::cout << leg1 << " " << leg2 << " " << hypotenuse << "\n";
 					}
 				}
 			}
